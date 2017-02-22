@@ -42,30 +42,4 @@ if(isset($_GET['pid']) and isset($_GET['shot']))
   function pid_exists(){
 
   }
-
-/*{"response": true,
-     "ack_shot": {
-       "x": 4,
-       "y": 5,
-       "isHit": false,   // hit a ship?
- "isSunk": false,  // sink a ship?
- "isWin": false,   // game over?
-       "ship:" []}       // coordinates (xi,yi)'s of the sunken ship
-     "shot": {           //  if isSunk is true
-       "x": 5,
-       "y": 6,
-       "isHit": false,
-       "isSunk": false,
-       "isWin": false,
-       "ship:", []}}
-
-    {"response": true,
-     "ack_shot": {
-       "x": 9,
-       "y": 2,
-       "isHit": true,
-       "isSunk": true,
-       "isWin": false,
-       "ship": [9,2,9,3,9,4]}, // coordinates of the sunken ship
-     "shot": { ... }}*/
 ?>
